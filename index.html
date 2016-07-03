@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/all.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>  
+		<script src="js/javascript.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+        <div class="container">
+            <div class="row">
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12"">
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-normal btn-block">normal</button>    
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-normal btn-block hover">hover</button>    
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-normal btn-block active">pressed</button>    
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-default btn-block">normal</button>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-default btn-block hover">hover</button>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-default btn-block active">pressed</button>
+                    </div>                                    
+                </section>   
+            </div>
+            <div class="row">
+                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-primary btn-block">normal</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-primary btn-block hover">hover</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-primary btn-block active">pressed</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-success btn-block">normal</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-success btn-block hover">hover</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-success btn-block active">pressed</button>
+                    </div>
+                </section>   
+            </div>
+            <div class="row">
+                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">                
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-info btn-block">normal</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-info btn-block hover">hover</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-info btn-block active">pressed</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-warning btn-block">normal</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-warning btn-block hover">hover</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-warning btn-block active">pressed</button>
+                    </div>
+                </section>   
+            </div>
+            <div class="row">
+                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-danger btn-block">normal</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-danger btn-block hover">hover</button>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="button" class="btn btn-danger btn-block active">pressed</button>
+                    </div>
+                </section>   
+            </div>
+
+
+<!-- Single button dropdowns-->
+
+            <div class="row">
+                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="btn-group">
+                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div> 
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                     
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+                     
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>        
+                </section>
+            </div>
+
+
+
+
+            <!-- Split button dropdowns -->
+            <div class="row">
+                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="btn-group">
+                      <button type="button" class="btn">Action</button>
+                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">Action</button>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-primary">Action</button>
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div> 
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-success">Action</button>
+                      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-info">Action</button>
+                      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div> 
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-warning">Action</button>
+                      <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-danger">Action</button>
+                      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>  
+                </section>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h1>h1. Bootstrap heading</h1>
+                    <h2>h2. Bootstrap heading</h2>
+                    <h3>h3. Bootstrap heading</h3>
+                    <h4>h4. Bootstrap heading</h4>
+                    <h5>h5. Bootstrap heading</h5>
+                    <h6>h6. Bootstrap heading</h6>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>            
+                </div>    
+            </div>
+ 
+            <div class="row">            
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <!-- Alert -->            
+                    <h5>Alert</h5>  
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Warning!</strong>  Best check yo self, you're not looking too good.
+                        </div>
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Well done!</strong> You successfully read this important alert message.
+                        </div>
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4>Warning!</h4>  
+                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                            <p>
+                                <a class="btn btn-warning" href="#">Take this action</a>
+                                <a class="btn btn-link" href="#">Or do this</a>
+                            </p>                        
+                        </div>
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4>Well done!</h4> 
+                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                            <p>
+                                <a class="btn btn-info" href="#">Take this action</a>
+                                <a class="btn btn-link" href="#">Or do this</a>
+                            </p>                             
+                        </div>                                                                          
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Heads up!</strong>   This alert needs your attention, but it's not super important.
+                        </div> 
+
+                        <div class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                        </div>
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4>Heads up!</h4>   
+                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                            <p>
+                                <a class="btn btn-success" href="#">Take this action</a>
+                                <a class="btn btn-link" href="#">Or do this</a>
+                            </p>                             
+                        </div> 
+
+                        <div class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4>Oh snap!</h4> 
+                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                            <p>
+                                <a class="btn btn-danger" href="#">Take this action</a>
+                                <a class="btn btn-link" href="#">Or do this</a>
+                            </p> 
+                        </div>                                                                                                                          
+                    </div>                                  
+                </div>    
+            </div>
+<!--
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <a href="#" class="thumbnail">
+                        <img data-src="#" alt="">
+                    </a>
+                </div>   
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>           
+                </div>    
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="well">
+                        Look, I'm in a well!
+                    </div>           
+                </div>    
+            </div>
+-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <!-- Timeline -->            
+                    <h5>Timeline</h5>
+                    <ul class="timeline">
+                        <li><div class="timeline-years">Apr 2014</div></li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-data">Apr 14</div>
+                          <div class="timeline-badge"></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-img pull-left">
+                              <img class="img-rounded" src="img/timeline-img-1.jpg">
+                            </div>          
+                            <div class="timeline-text">
+                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
+                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-data">Apr 14</div>
+                          <div class="timeline-badge"></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-img pull-left">
+                              <img class="img-rounded" src="img/timeline-img-2.jpg">
+                            </div>          
+                            <div class="timeline-text">
+                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
+                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li><div class="timeline-years">Apr 2014</div></li>                    
+                        <li class="timeline-inverted">
+                          <div class="timeline-data">Apr 14</div>
+                          <div class="timeline-badge"></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-img pull-left">
+                              <img class="img-rounded" src="img/timeline-img-3.jpg">
+                            </div>          
+                            <div class="timeline-text">
+                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
+                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-data">Apr 14</div>
+                          <div class="timeline-badge"></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-img pull-left">
+                              <img class="img-rounded" src="img/timeline-img-4.jpg">
+                            </div>          
+                            <div class="timeline-text">
+                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
+                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>          
+                </div>    
+            </div> 
+                
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h5>Pricing</h5>
+
+                    <div class="pricing">
+
+                        <div class="item price-primary">
+                          <div class="price-header">
+                            <h3>$599</h3>
+                            <p>per month</p>
+                          </div>
+                          <div class="price-body">
+                            <h4>Basic</h4>
+                            <p>Lots of clients & users</p>                  
+                            <ul class="item-list">
+                                <li>250 SKU's</li>
+                                <li>1 GB Storage</li>
+                                <li>3,5% transaction fee</li>
+                            </ul>
+                          </div>
+                          <div class="price-footer mediafix">
+                              <a class="btn btn-primary" href="#">Try a Week</a>
+                          </div>
+                        </div>
+                        <div class="item price-success firstplan">
+                          <div class="price-header">
+                            <h3>$299</h3>
+                            <p>per month</p>
+                          </div>
+                          <div class="price-body">
+                            <h4>Unlimited</h4>
+                            <p>Lots of clients & users</p>                  
+                            <ul class="item-list">
+                                <li>250 SKU's</li>
+                                <li>5GB Storage</li>
+                                <li>1,5% transaction fee</li>
+                            </ul>
+                          </div>
+                          <div class="price-footer mediafix">
+                              <a class="btn btn-success" href="#">Buy Now</a>
+                          </div>
+                        </div>
+                        <div class="item price-warning">
+                          <div class="price-header">
+                            <h3>$499</h3>
+                            <p>per month</p>
+                          </div>
+                          <div class="price-body">
+                            <h4>Unlimited</h4>
+                            <p>Lots of clients & users</p>                  
+                            <ul class="item-list">
+                                <li>250 SKU's</li>
+                                <li>20GB Storage</li>
+                                <li>3,5% transaction fee</li>
+                            </ul>
+                          </div>
+                          <div class="price-footer mediafix">
+                              <a class="btn btn-warning" href="#">Subscribe</a>
+                          </div>
+                        </div>                
+                    </div>          
+                </div>    
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h5>Calendar</h5>          
+                </div>    
+            </div>
+        </div>
+	</body>
+</html>
