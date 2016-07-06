@@ -1,0 +1,21 @@
+{
+  "name": "bs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "IuliiaKorzh <iuliia.korzh@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/IuliiaKorzh/IuliiaKorzh.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap-sass": "^3.3.6"
+  }
+}

@@ -7,9 +7,6 @@
 		<title>Title Page</title>
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/all.css">
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>  
-		<script src="js/javascript.js"></script>
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -18,537 +15,357 @@
 		<![endif]-->
 	</head>
 	<body>
-        <div class="container">
-            <div class="row">
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12"">
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-normal btn-block">normal</button>    
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-normal btn-block hover">hover</button>    
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-normal btn-block active">pressed</button>    
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-default btn-block">normal</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-default btn-block hover">hover</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-default btn-block active">pressed</button>
-                    </div>                                    
-                </section>   
+    <header class="wrapper-gray">
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+          </div>
+
+
+            <div class="collapse navbar-collapse js-navbar-collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>              
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Wordpress Design</a></li>
+                    <li><a href="#">Mobile App Devplopment</a></li>
+                    <li><a href="#">Internet Marketing</a></li>
+                    <li><a href="#">Social Media Management</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Wordpress Design</a></li>
+                    <li><a href="#">Mobile App Devplopment</a></li>
+                    <li><a href="#">Internet Marketing</a></li>
+                    <li><a href="#">Social Media Management</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Blog</a></li>              
+                <li>
+                  <a href="contacts.html">Contact us</a>
+                </li>              
+              </ul>
+            </div>            
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper-primary">
+      <div class="container">    
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item">
+              <img src="img/bg-slide-1.jpg" alt="a" />
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>We design clean, crisp & memorable icons</h1>
+                </div>
+              </div>
             </div>
-            <div class="row">
-                <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-primary btn-block">normal</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-primary btn-block hover">hover</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-primary btn-block active">pressed</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-success btn-block">normal</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-success btn-block hover">hover</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-success btn-block active">pressed</button>
-                    </div>
-                </section>   
+            <div class="item">
+              <img src="img/bg-slide-1.jpg" alt="a" />
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>We design clean, crisp & memorable icons</h1>
+                </div>
+              </div>
             </div>
-            <div class="row">
-                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">                
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-info btn-block">normal</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-info btn-block hover">hover</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-info btn-block active">pressed</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-warning btn-block">normal</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-warning btn-block hover">hover</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-warning btn-block active">pressed</button>
-                    </div>
-                </section>   
+            <div class="item active">
+              <img src="img/bg-slide-1.jpg" alt="a" />
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>We design clean, crisp & memorable icons</h1>
+                </div>
+              </div>
             </div>
-            <div class="row">
-                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-danger btn-block">normal</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-danger btn-block hover">hover</button>
-                    </div>
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" class="btn btn-danger btn-block active">pressed</button>
-                    </div>
-                </section>   
+          </div>
+          <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+      </div>      
+    </div>
+    <div class="wrapper-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="b-features">
+              <h4 class="title">
+              <span class="title-icon round round-lg"><span class="glyphicon glyphicon-pencil"></span></span>
+              Clean Theme
+              </h4> 
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn-link btn-primary" href="#" role="button">&raquo; Read More</a></p>              
             </div>
-
-
-<!-- Single button dropdowns-->
-
-            <div class="row">
-                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="btn-group">
-                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div> 
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-                     
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-                     
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>        
-                </section>
+          </div>
+          <div class="col-lg-3">
+            <div class="b-features">
+              <h4 class="title">
+              <span class="title-icon round round-lg"><span class="glyphicon glyphicon-fullscreen"></span></span>
+              Responsive Design
+              </h4>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn-link btn-primary" href="#" role="button">&raquo; Read More</a></p>              
             </div>
-
-
-
-
-            <!-- Split button dropdowns -->
-            <div class="row">
-                <section  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="btn-group">
-                      <button type="button" class="btn">Action</button>
-                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default">Action</button>
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-primary">Action</button>
-                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div> 
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-success">Action</button>
-                      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-info">Action</button>
-                      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div> 
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-warning">Action</button>
-                      <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-danger">Action</button>
-                      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                    </div>  
-                </section>
+         </div>
+          <div class="col-lg-3">
+            <div class="b-features">
+              <h4 class="title">
+              <span class="title-icon round round-lg"><span class="glyphicon glyphicon-align-justify"></span></span>
+              Fully layerd PSD
+              </h4>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+              <p><a class="btn-link btn-primary" href="#" role="button">&raquo; Read More</a></p>            
             </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1>h1. Bootstrap heading</h1>
-                    <h2>h2. Bootstrap heading</h2>
-                    <h3>h3. Bootstrap heading</h3>
-                    <h4>h4. Bootstrap heading</h4>
-                    <h5>h5. Bootstrap heading</h5>
-                    <h6>h6. Bootstrap heading</h6>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>            
-                </div>    
+          </div>
+          <div class="col-lg-3">
+            <div class="b-features">
+              <h4 class="title">
+              <span class="title-icon round round-lg"><span class="glyphicon glyphicon-send"></span></span>
+              Ready for coding
+              </h4>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+              <p><a class="btn-link btn-primary" href="#" role="button">&raquo; Read More</a></p>         
             </div>
- 
-            <div class="row">            
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <!-- Alert -->            
-                    <h5>Alert</h5>  
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="alert alert-warning">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Warning!</strong>  Best check yo self, you're not looking too good.
-                        </div>
-                        <div class="alert alert-info">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Well done!</strong> You successfully read this important alert message.
-                        </div>
-                        <div class="alert alert-warning">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h4>Warning!</h4>  
-                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-                            <p>
-                                <a class="btn btn-warning" href="#">Take this action</a>
-                                <a class="btn btn-link" href="#">Or do this</a>
-                            </p>                        
-                        </div>
-                        <div class="alert alert-info">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h4>Well done!</h4> 
-                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-                            <p>
-                                <a class="btn btn-info" href="#">Take this action</a>
-                                <a class="btn btn-link" href="#">Or do this</a>
-                            </p>                             
-                        </div>                                                                          
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="alert alert-success">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Heads up!</strong>   This alert needs your attention, but it's not super important.
-                        </div> 
-
-                        <div class="alert alert-danger">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Oh snap!</strong> Change a few things up and try submitting again.
-                        </div>
-                        <div class="alert alert-success">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h4>Heads up!</h4>   
-                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-                            <p>
-                                <a class="btn btn-success" href="#">Take this action</a>
-                                <a class="btn btn-link" href="#">Or do this</a>
-                            </p>                             
-                        </div> 
-
-                        <div class="alert alert-danger">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h4>Oh snap!</h4> 
-                            <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-                            <p>
-                                <a class="btn btn-danger" href="#">Take this action</a>
-                                <a class="btn btn-link" href="#">Or do this</a>
-                            </p> 
-                        </div>                                                                                                                          
-                    </div>                                  
-                </div>    
-            </div>
-<!--
-            <div class="row">
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <a href="#" class="thumbnail">
-                        <img data-src="#" alt="">
-                    </a>
-                </div>   
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <ul class="pagination">
-                        <li><a href="#">&laquo;</a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&raquo;</a></li>
-                    </ul>           
-                </div>    
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="well">
-                        Look, I'm in a well!
-                    </div>           
-                </div>    
-            </div>
--->
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <!-- Timeline -->            
-                    <h5>Timeline</h5>
-                    <ul class="timeline">
-                        <li><div class="timeline-years">Apr 2014</div></li>
-                        <li class="timeline-inverted">
-                          <div class="timeline-data">Apr 14</div>
-                          <div class="timeline-badge"></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-img pull-left">
-                              <img class="img-rounded" src="img/timeline-img-1.jpg">
-                            </div>          
-                            <div class="timeline-text">
-                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
-                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="timeline-data">Apr 14</div>
-                          <div class="timeline-badge"></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-img pull-left">
-                              <img class="img-rounded" src="img/timeline-img-2.jpg">
-                            </div>          
-                            <div class="timeline-text">
-                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
-                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li><div class="timeline-years">Apr 2014</div></li>                    
-                        <li class="timeline-inverted">
-                          <div class="timeline-data">Apr 14</div>
-                          <div class="timeline-badge"></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-img pull-left">
-                              <img class="img-rounded" src="img/timeline-img-3.jpg">
-                            </div>          
-                            <div class="timeline-text">
-                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
-                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="timeline-data">Apr 14</div>
-                          <div class="timeline-badge"></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-img pull-left">
-                              <img class="img-rounded" src="img/timeline-img-4.jpg">
-                            </div>          
-                            <div class="timeline-text">
-                              <h6 class="timeline-title">Mussum ipsum cacilds</h6>
-                              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache .</p>
-                            </div>
-                          </div>
-                        </li>
-                    </ul>          
-                </div>    
-            </div> 
-                
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h5>Pricing</h5>
-
-                    <div class="pricing">
-
-                        <div class="item price-primary">
-                          <div class="price-header">
-                            <h3>$599</h3>
-                            <p>per month</p>
-                          </div>
-                          <div class="price-body">
-                            <h4>Basic</h4>
-                            <p>Lots of clients & users</p>                  
-                            <ul class="item-list">
-                                <li>250 SKU's</li>
-                                <li>1 GB Storage</li>
-                                <li>3,5% transaction fee</li>
-                            </ul>
-                          </div>
-                          <div class="price-footer mediafix">
-                              <a class="btn btn-primary" href="#">Try a Week</a>
-                          </div>
-                        </div>
-                        <div class="item price-success firstplan">
-                          <div class="price-header">
-                            <h3>$299</h3>
-                            <p>per month</p>
-                          </div>
-                          <div class="price-body">
-                            <h4>Unlimited</h4>
-                            <p>Lots of clients & users</p>                  
-                            <ul class="item-list">
-                                <li>250 SKU's</li>
-                                <li>5GB Storage</li>
-                                <li>1,5% transaction fee</li>
-                            </ul>
-                          </div>
-                          <div class="price-footer mediafix">
-                              <a class="btn btn-success" href="#">Buy Now</a>
-                          </div>
-                        </div>
-                        <div class="item price-warning">
-                          <div class="price-header">
-                            <h3>$499</h3>
-                            <p>per month</p>
-                          </div>
-                          <div class="price-body">
-                            <h4>Unlimited</h4>
-                            <p>Lots of clients & users</p>                  
-                            <ul class="item-list">
-                                <li>250 SKU's</li>
-                                <li>20GB Storage</li>
-                                <li>3,5% transaction fee</li>
-                            </ul>
-                          </div>
-                          <div class="price-footer mediafix">
-                              <a class="btn btn-warning" href="#">Subscribe</a>
-                          </div>
-                        </div>                
-                    </div>          
-                </div>    
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h5>Calendar</h5>          
-                </div>    
+          </div>        
+        </div>         
+      </div>      
+    </div>
+    <main class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <h4 class="title">
+            <span class="title-icon round round-lg round-invert"><span class="glyphicon glyphicon-pencil"></span></span>
+            latest works
+          </h4> 
+          </div>
+            <div class="col-md-3">
+                <!-- Controls -->
+                <div class="controls pull-right hidden-xs">
+                    <a class="left round round-sm" href="#carousel-example"
+                        data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right round round-sm" href="#carousel-example"
+                            data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
+                </div>
             </div>
         </div>
-	</body>
+        <div id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-1.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-2.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-3.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-4.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3  text-center">
+                            <div class="col-item">
+                              <ul class="list-inline social-lists">
+                                <li><a href="#"><span class="glyphicon glyphicon-eye-open"></span></a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-link"></span></a></li>
+                              </ul>                            
+                              <figure class="photo">
+                                  <img src="img/img-1.jpg" class="img-responsive" alt="a" />
+                              </figure>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-2.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-3.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="img/img-4.jpg" class="img-responsive" alt="a" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="b-quote">
+              <div class="heading">
+                <h4 class="title">
+                  <span class="title-icon round round-lg round-invert"><span class="glyphicon glyphicon-comment"></span></span>
+                  Testimonials
+                </h4>
+              </div>         
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut nulla sapien, at aliquam erat. Sed vitae massa tellus. Aliquam commodo aliquam metus, sed iaculis nibh tempus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam nec nisi in nisl euismod fringilla.</p>               
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="b-clients">
+              <div class="heading">
+                <h4 class="title">
+                  <span class="title-icon round round-lg round-invert"><span class="glyphicon glyphicon-user"></span></span>
+                  Our Clients
+                </h4>
+              </div>
+              <ul class="li-cl">
+                <li><img src="http://placehold.it/160x100" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/160x100" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/160x100" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/160x100" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/160x100" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/160x100" class="img-responsive" alt="a" /></li>
+              </ul>                            
+            </div>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="alert alert-success">
+              <a class="btn btn-lg btn-primary pull-right"  href="#" role="button">Download PSD</a>
+              <div class="oh">
+                <p>This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p>              
+              </div>
+            </div>              
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <footer class="wrapper-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="b-about">
+              <h4>About us</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie.</p>              
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">            
+              <dl>
+                <dt><h4>Explore</h4></dt>
+                <dd><a href="#">Home</a></dd>
+                <dd><a href="#">About Us</a></dd>
+                <dd><a href="#">Services</a></dd>
+                <dd><a href="#">Portfolio</a></dd>
+                <dd><a href="#">Blog</a></dd>
+              </dl>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <dl>
+                <dt><h4>Browse</h4></dt>
+                <dd><a href="#">Careers</a></dd>
+                <dd><a href="#">Press & Media</a></dd>
+                <dd><a href="#">Contact Us</a></dd>
+                <dd><a href="#">Terms of Service</a></dd>
+                <dd><a href="#">Privacy Policy</a></dd>
+              </dl>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <div class="b-contact">
+                <h4>Contact us</h4>
+                <address>
+                  <strong>BisLite Inc.</strong><br>
+                  Always Street 265<br>
+                  0X - 125 - Canada<br><br>
+                  <abbr title="Phone">Phone:</abbr> 987-6543-210<br>
+                  <abbr title="Fax">Fax:</abbr> 987-6543-210
+                </address>                
+              </div>
+            </div>                        
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="b-social">
+              <h4>Connect with us</h4>
+              <ul class="li-cl li-soc">
+                <li><img src="http://placehold.it/53x51" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/53x51" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/53x51" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/53x51" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/53x51" class="img-responsive" alt="a" /></li>
+                <li><img src="http://placehold.it/53x51" class="img-responsive" alt="a" /></li>
+              </ul> 
+            </div>  
+          </div>                
+        </div>
+        <div class="row">
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="b-copyright">
+              <p>&copy; Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com. 
+                Client Logos are copyright and trademark of the respective owners / companies.  </p>              
+            </div>          
+
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <a class="pull-right" href="#"><img src="img/logo.png" alt="logo"></a>
+          </div>              
+        </div>              
+      </div>
+    </footer>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>  
+    <script src="js/javascript.js"></script>     
+  </body>
 </html>
